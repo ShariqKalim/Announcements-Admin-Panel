@@ -1,0 +1,47 @@
+#logout_responsive {
+  display: none;
+}
+@media (max-width: 760px) {
+  #mainImage {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+  }
+  #formDiv {
+    margin: auto;
+    margin-top: 150px;
+    width: 100%;
+    padding: 20px;
+  }
+  #formDiv .allInputs {
+    width: 100%;
+  }
+  .login_button {
+    width: 100%;
+  }
+  .footer {
+    margin: auto;
+  }
+  .note {
+    width: 100%;
+  }
+  #sidebar {
+    display: none;
+  }
+  #date_input {
+    margin-top: 20px;
+    width: 300px;
+    margin-left: -3px;
+  }
+
+  #collections {
+    width: 100%;
+  }
+  #collections #top {
+    flex-direction: column;
+  }
+  #logout_responsive {
+    display: block;
+  }
+}
